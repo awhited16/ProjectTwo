@@ -1,12 +1,8 @@
 {
   "name": "projecttwo",
   "version": "1.0.0",
-  "description": "",
+  "description": "all-you-can-eat-app",
   "main": "server.js",
-  "dependencies": {
-    "express": "^4.17.1"
-  },
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
@@ -20,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/awhited16/ProjectTwo/issues"
   },
-  "homepage": "https://github.com/awhited16/ProjectTwo#readme"
+  "homepage": "https://github.com/awhited16/ProjectTwo#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "passport": "^0.4.1",
+    "path": "^0.12.7",
+    "session": "^0.1.0"
+  }
 }
